@@ -32,7 +32,7 @@ const TaskContainer = ({ tasks, setTasks, dark }) => {
                     onChange={handleChange} value={todo.description} />
                 <button className={`task-btn ${dark ? 'darkMode-add-btn' : 'lightMode-add-btn'} add-btn`}
                     type='submit'>Add</button>
-            </form >
+            </form>
 
             <div className={`${dark ? 'darkMode-box-tasks-container' : "lightMode-box-tasks-container"} box-tasks-container`}>
                 {tasks?.map((task, i) => {

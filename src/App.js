@@ -28,7 +28,7 @@ function App() {
         checkedIcon={<div className='check-moon-btn'><BsFillMoonStarsFill size={18} /></div>} />
 
       <TaskContanier tasks={tasks} setTasks={setTasks} dark={dark} />
-    </div >
+    </div>
   );
 }
 
