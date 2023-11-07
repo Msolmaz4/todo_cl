@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Switch from "react-switch";
 import { BsSunFill, BsFillMoonStarsFill } from 'react-icons/bs'
-import TaskContanier from './components/TaskContainer';
+import TaskContanier from './components/TaskContainer/TaskContainer';
 
 function App() {
 

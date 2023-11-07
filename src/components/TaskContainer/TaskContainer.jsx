@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Task from '../Task'
+import Task from '../Task/Task'
 import './TaskContainer.css'
 
 const TaskContainer = ({ tasks, setTasks, dark }) => {
