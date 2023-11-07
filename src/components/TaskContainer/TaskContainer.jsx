@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Task from '../Task/Task'
-import './taskContainer.css'
+
 
 const TaskContainer = ({ tasks, setTasks, dark }) => {
 
